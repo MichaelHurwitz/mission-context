@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url('./images/original.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+}
+
+.app-header {
+  background-color: rgba(46, 125, 50, 0.8); 
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
